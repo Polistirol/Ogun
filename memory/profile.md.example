@@ -1,0 +1,50 @@
+# Profile
+
+- **last_updated:**
+- **updated_by:** template
+- **who updates it:** rarely, after human review of an extraction draft. The master does not overwrite this from conversation. `config/cv_master.yaml` remains the curated source used by tailor/Author.
+
+---
+
+Copy this file to `memory/profile.md`. Fill it by hand or, after reviewing
+`config/master_profile_draft.yaml`, run:
+
+`python build_profile.py --commit-to-memory`
+
+## Identity
+
+- **Name:**
+- **Location:**
+- **Email:**
+- **GitHub:**
+- **LinkedIn:**
+
+## Headline (variants)
+
+- **ai_agents:**
+- **robotics:**
+- **backend:**
+
+## Summary (variants)
+
+_No text._
+
+## Experience
+
+_No experience._
+
+## Projects
+
+_No projects._
+
+## Skills
+
+_No skills._
+
+## Education
+
+_No education._
+
+## Open gaps
+
+_No gaps recorded._

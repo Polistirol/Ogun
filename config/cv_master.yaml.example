@@ -1,0 +1,53 @@
+# =========================================================================
+# CV MASTER — curated source (Author / matcher)
+#
+# Copy this file to config/cv_master.yaml and replace the placeholders.
+# Extract does not overwrite it: human review is mandatory.
+# Bullet tags (ai_agents, robotics, backend, ...) hint which blocks
+# to emphasize given a job ad.
+# =========================================================================
+
+candidate:
+  name: "Your Name"
+  headline_variants:
+    ai_agents: "Software Engineer | AI Agents & LLM Systems"
+    robotics: "Software Engineer | Robotics & Industrial Automation"
+    backend: "Backend Software Engineer | Distributed Systems"
+  location: "City, Country — full remote available"
+  links:
+    github: "https://github.com/your-username"
+    linkedin: "https://www.linkedin.com/in/your-username/"
+    email: "you@example.com"
+
+summary_variants:
+  ai_agents: >
+    Short summary tailored to AI / agent roles. Facts only.
+  robotics: >
+    Short summary tailored to robotics / industrial roles. Facts only.
+  backend: >
+    Short summary tailored to backend roles. Facts only.
+
+experiences:
+  - company: "Example Corp"
+    role: "Software Engineer"
+    period: "Jan 2020 — Present"
+    blocks:
+      - tags: [backend, ai_agents]
+        text: >
+          One concrete achievement. Prefer numbers and stack over adjectives.
+
+skills:
+  languages: ["Python"]
+  ai_ml:
+    - "prompt engineering"
+  backend:
+    - "SQL"
+  robotics_industrial: []
+  other:
+    - "version control"
+  spoken: ["English"]
+
+education:
+  - degree: "Degree"
+    institution: "University"
+    period: "2016 — 2020"

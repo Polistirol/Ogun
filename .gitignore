@@ -1,0 +1,20 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.DS_Store
+*.db
+output/
+raw_extract_response.txt
+raw_response.txt
+
+# Personal data — do not commit (use the .example files)
+config/cv_master.yaml
+config/master_profile_draft.yaml
+resources/base_cv.pdf
+memory/profile.md
+memory/search-criteria.md
+memory/decisions-log.md

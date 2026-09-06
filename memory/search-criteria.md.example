@@ -1,0 +1,43 @@
+# Search criteria
+
+- **last_updated:**
+- **updated_by:** template
+- **who updates it:** the master, when the user refines criteria in conversation. Rewrite the relevant section and leave a trail in the history.
+
+---
+
+Copy this file to `memory/search-criteria.md`. Current criteria for
+filtering roles, companies, and conditions. Empty until stated in
+conversation.
+
+## Target roles
+
+_No criteria set._
+
+## Location and work mode
+
+_No criteria set._
+
+## Exclusions
+
+_No criteria set._
+
+## Companies
+
+_No criteria set._
+
+## Salary range
+
+_No criteria set._
+
+## Preferred sources / providers
+
+_No criteria set._
+
+## Other criteria
+
+_No criteria set._
+
+## Update history
+
+_No updates._
