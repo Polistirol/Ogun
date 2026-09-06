@@ -118,10 +118,3 @@ The pipeline checks that the pieces respond. For real use the human gates stay:
 5. **Master** — `python master.py` or `python -m frontend` for chat over the memory files.
 
 Stores: `config/cv_master.yaml` (factual source of truth), `memory/*.md` (criteria and decisions), `ogunjob.db` (listings, scores, applications). Do not mix them. DDL in [`schema.sql`](schema.sql).
-
-## Non-goals
-
-- No automatic application submissions
-- No scraping beyond public feeds/APIs
-- No automatic overwrite of `config/cv_master.yaml`
-- No vector DB in this version
