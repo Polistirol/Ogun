@@ -1,4 +1,4 @@
-# OgunJob
+# Ogun
 
 Local toolkit for job search: collect listings from public feeds, score them against your profile, generate a tailored CV and cover letter, and track applications.
 
